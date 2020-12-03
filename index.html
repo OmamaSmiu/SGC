@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset class="border p-2" id="Main">
+        <h2>Student Grade Calculator</h2>
+        <div class="form-row">
+            <div class="col">
+                <label for="formGroupExampleInput" class="subjectName">Student Name</label>
+                <input type="text" class="form-control" placeholder="First name" id="Name">
+            </div>
+            <div class="col">
+                <label for="formGroupExampleInput" class="subjectName">Program</label>
+                <input type="text" class="form-control" placeholder="Program" id="Program">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput" class="subjectName">Threoy of Automata</label>
+            <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Enter a Number">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput" class="subjectName">Professional Pratices</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter a Number">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput" class="subjectName">CCN</label>
+            <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Enter a Number">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput" class="subjectName">Computer Architecture</label>
+            <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Enter a Number">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput" class="subjectName">E-Commerce</label>
+            <input type="text" class="form-control" id="formGroupExampleInput5" placeholder="Enter a Number">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput" class="subjectName">HCI</label>
+            <input type="text" class="form-control" id="formGroupExampleInput6" placeholder="Enter a Number">
+        </div>
+        <button class="btn btn-primary" type="submit" onclick="getMarks()">Submit</button>
+        <div class="app-form-group showdata">
+            <p id="showdata"></p>
+        </div>
+    </fieldset>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

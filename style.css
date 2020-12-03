@@ -1,0 +1,128 @@
+#Main{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 400px;
+    margin-right: 250px;
+    width: 500px;
+}
+#Name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    border-color: red;
+    margin-left: 129px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+#Program{  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    border-color: red;
+    margin-left: 180px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    }
+.subjectName{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}
+.form-control{
+    margin-bottom: 20px;
+}
+#formGroupExampleInput1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    border-color: red;
+    margin-left: 60px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+#formGroupExampleInput2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    border-color: red;
+    margin-left: 26px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+#formGroupExampleInput3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    border-color: red;
+    margin-left: 222px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+#formGroupExampleInput4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    border-color: red;
+    margin-left: 28px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+#formGroupExampleInput5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    border-color: red;
+    margin-left: 146px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+#formGroupExampleInput6{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    border-color: red;
+    margin-left: 220px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+}
+::placeholder {
+    color: red;
+  }
+h2{
+    text-align: center;
+    color: red;
+}
+#showdata{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+button{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px ;
+    width: 150px;
+    height: 30px;
+    color: red;
+    margin-left: 321px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+}
